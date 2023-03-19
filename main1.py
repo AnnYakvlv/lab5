@@ -11,7 +11,7 @@ else:
 #zd_2
 color = ['white', 'white', 'yellow', 'purple', 'blue']
 s = set([c for c in color if color.count(c) > 1])
-print(*(s if len(s) > 0 else ['отсутствуют']))
+print(*(s if len(s) > 0 else ['Отсутствуют!']))
 
 
 
